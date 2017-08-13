@@ -1,3 +1,202 @@
+/* line 3, main.scss */
+body {
+  font-family: 'Titillium Web', sans-serif; }
 
+/* line 6, main.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 11, main.scss */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #352d2f;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+/* line 20, main.scss */
+.header__logo {
+  text-align: center;
+  background-color: #f63c3c;
+  padding: 9px 10px 10px 10px;
+  height: 50px; }
+  /* line 25, main.scss */
+  .header__logo .header__logo--link {
+    text-decoration: none;
+    color: #fff; }
+
+/* line 32, main.scss */
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px; }
+  /* line 37, main.scss */
+  .header__nav .header__nav--item {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 9px;
+    line-height: 48px;
+    border-bottom: 3px solid transparent; }
+    /* line 43, main.scss */
+    .header__nav .header__nav--item:first-child {
+      border-bottom: 3px solid #fff; }
+    /* line 46, main.scss */
+    .header__nav .header__nav--item:hover {
+      border-bottom: 3px solid #fff; }
+
+/* line 52, main.scss */
+.cta {
+  padding: 13% 0 2%;
+  background-color: #352d2f;
+  color: #fff;
+  font-family: Teko, sans-serif;
+  text-align: center; }
+  /* line 58, main.scss */
+  .cta .cta__message {
+    margin-bottom: 10%;
+    line-height: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 10px; }
+
+/* line 67, main.scss */
+.cta__button {
+  margin-bottom: 5%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer; }
+
+/* line 78, main.scss */
+.cta__discover-more {
+  margin: 1% 0;
+  display: block;
+  color: #fff; }
+  /* line 82, main.scss */
+  .cta__discover-more .discover-more__icon {
+    font-size: 32px;
+    margin: .5% 0; }
+  /* line 85, main.scss */
+  .cta__discover-more .discover-more__hook {
+    font-size: 16px; }
+
+/* line 90, main.scss */
+.explore-more {
+  padding: 5% 0 3%;
+  text-align: center; }
+  /* line 93, main.scss */
+  .explore-more .explore-more__heading {
+    width: 50%;
+    margin: 0 auto 3%;
+    font-weight: 900;
+    font-family: Teko, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px; }
+  /* line 101, main.scss */
+  .explore-more .explore-more__button {
+    background-color: #f63c3c;
+    border: none;
+    color: #fff;
+    letter-spacing: -1;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer; }
+
+/* line 113, main.scss */
+.features {
+  color: #fff;
+  font-family: 'Teko', sans-serif; }
+
+/* line 117, main.scss */
+.features__left {
+  width: 50%;
+  height: 460px;
+  padding-bottom: 10%;
+  float: left;
+  background: #f63c3c; }
+  /* line 123, main.scss */
+  .features__left .features__left--subtitle {
+    margin: 40% 10% 3%; }
+  /* line 125, main.scss */
+  .features__left .features__left--title {
+    margin: 1% 10% 3%;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 10%; }
+  /* line 131, main.scss */
+  .features__left .features__left--paragraph {
+    margin: 1% 10% 30%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10%;
+    width: 45%; }
+
+/* line 141, main.scss */
+.features__top-right {
+  background-color: #352d2f;
+  float: right;
+  width: 50%;
+  height: 230px; }
+  /* line 146, main.scss */
+  .features__top-right .features__top-right--title {
+    margin: 15% 10% 1%;
+    font-size: 30px;
+    letter-spacing: 2px; }
+  /* line 151, main.scss */
+  .features__top-right .features__top-right--paragraph {
+    margin: 1% 10% 3%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 45%; }
+
+/* line 159, main.scss */
+.features__bottom-right {
+  background-color: #30282a;
+  float: right;
+  width: 50%;
+  height: 230px; }
+  /* line 164, main.scss */
+  .features__bottom-right .features__bottom-right--title {
+    margin: 15% 10% 1%;
+    font-size: 30px;
+    letter-spacing: 2px; }
+  /* line 168, main.scss */
+  .features__bottom-right .features__bottom-right--paragraph {
+    margin: 1% 10% 3%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 45%; }
+
+/* line 176, main.scss */
+.show-more {
+  height: 50px;
+  width: 100%;
+  clear: both;
+  background: #30282a;
+  text-align: center; }
+  /* line 182, main.scss */
+  .show-more .show-more__link {
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-bottom: 2px solid #fff; }
 
 /*# sourceMappingURL=main.css.map */

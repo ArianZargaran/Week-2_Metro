@@ -1,1 +1,190 @@
 @charset "UTF-8";
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+//HEADER
+.header  {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(53, 45, 47);
+  justify-content: space-around;
+}
+
+//HEADER LOGO
+.header__logo {
+  text-align: center;
+  background-color: #f63c3c;
+  padding: 9px 10px 10px 10px;
+  height: 50px;
+  .header__logo--link {
+    text-decoration: none;
+    color: #fff;
+    }
+  }
+
+//HEADER NAV-BAR
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  .header__nav--item {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 9px;
+    line-height: 48px;
+    border-bottom: 3px solid transparent;
+    &:first-child {
+      border-bottom: 3px solid #fff;
+    }
+    &:hover {
+      border-bottom: 3px solid #fff;
+    }
+  }
+}
+//CTA SECTION
+.cta {
+  padding: 13% 0 2%;
+  background-color: rgb(53, 45, 47);
+  color: #fff;
+  font-family: Teko, sans-serif;
+  text-align: center;
+  .cta__message {
+    margin-bottom: 10%;
+    line-height: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+}
+//CTA SECTION__BUTTON
+.cta__button {
+  margin-bottom: 5%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+//CTA SECTION__LEARN MORE
+.cta__discover-more {
+  margin: 1% 0;
+  display: block;
+  color: #fff;
+  .discover-more__icon {
+    font-size: 32px;
+    margin: .5% 0;}
+    .discover-more__hook {
+    font-size: 16px;}
+}
+
+//CTA SECTION EXPLORE MORE
+.explore-more {
+  padding: 5% 0 3%;
+  text-align: center;
+  .explore-more__heading {
+    width: 50%;
+    margin: 0 auto 3%;
+    font-weight: 900;
+    font-family: Teko, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+    .explore-more__button {
+      background-color: #f63c3c;
+      border: none;
+      color: #fff;
+      letter-spacing: -1;
+      padding: 10px 15px;
+      outline: none;
+      cursor: pointer;
+  }
+}
+
+//FEATURES SECTION
+.features {
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+}
+.features__left {
+  width: 50%;
+  height: 460px;
+  padding-bottom: 10%;
+  float: left;
+  background: #f63c3c;
+  .features__left--subtitle {
+  margin: 40% 10% 3%; }
+  .features__left--title {
+  margin: 1% 10% 3%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 10%;
+  }
+  .features__left--paragraph {
+  margin: 1% 10% 30%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 10%;
+  width: 45%;
+  }
+}
+
+.features__top-right {
+  background-color: #352d2f;
+  float: right;
+  width: 50%;
+  height: 230px;
+  .features__top-right--title {
+    margin: 15% 10% 1%;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .features__top-right--paragraph {
+    margin: 1% 10% 3%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 45%;
+  }
+}
+.features__bottom-right {
+  background-color:  #30282a;
+  float: right;
+  width: 50%;
+  height: 230px;
+  .features__bottom-right--title {
+    margin: 15% 10% 1%;
+   font-size: 30px;
+   letter-spacing: 2px;   }
+   .features__bottom-right--paragraph {
+     margin: 1% 10% 3%;
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 12px;
+     line-height: 20px;
+     width: 45%;
+   }
+ }
+.show-more {
+  height: 50px;
+  width: 100%;
+  clear: both;
+  background: #30282a;
+  text-align: center;
+  .show-more__link {
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-bottom: 2px solid #fff;
+  }
+}
