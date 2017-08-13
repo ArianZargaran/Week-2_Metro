@@ -72,7 +72,7 @@ body {
 
 /* line 67, main.scss */
 .cta__button {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
@@ -129,7 +129,7 @@ body {
   background: #f63c3c; }
   /* line 123, main.scss */
   .features__left .features__left--subtitle {
-    margin: 40% 10% 3%; }
+    margin: 30% 10% 3%; }
   /* line 125, main.scss */
   .features__left .features__left--title {
     margin: 1% 10% 3%;
@@ -198,5 +198,93 @@ body {
     text-decoration: none;
     padding: 3px 7px;
     border-bottom: 2px solid #fff; }
+
+/* line 193, main.scss */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 5% 0 3%;
+  max-width: 80%; }
+
+/* line 200, main.scss */
+.info__block--left {
+  padding-left: 5%;
+  max-width: 90%; }
+  /* line 203, main.scss */
+  .info__block--left .info__block-icon {
+    font-size: 32px;
+    color: #f63c3c;
+    margin-bottom: 2%; }
+  /* line 208, main.scss */
+  .info__block--left .info__block-title {
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 3%;
+    font-weight: 900; }
+  /* line 213, main.scss */
+  .info__block--left .info__block-paragraph {
+    font-size: 14px; }
+
+/* line 218, main.scss */
+.info__block--right {
+  padding-left: 5%;
+  max-width: 90%; }
+  /* line 221, main.scss */
+  .info__block--right .info__block-icon {
+    font-size: 32px;
+    color: #f63c3c;
+    margin-bottom: 2%; }
+  /* line 226, main.scss */
+  .info__block--right .info__block-title {
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 3%;
+    font-weight: 900; }
+  /* line 231, main.scss */
+  .info__block--right .info__block-paragraph {
+    font-size: 14px; }
+
+/* line 237, main.scss */
+.social {
+  padding: 2% 4%; }
+  /* line 239, main.scss */
+  .social .social__title {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto; }
+  /* line 245, main.scss */
+  .social .social__paragraph {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    margin: 0 auto 2%;
+    width: 80%; }
+
+/* line 253, main.scss */
+.social__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 256, main.scss */
+  .social__links .social__links--item {
+    text-decoration: none;
+    color: #fff;
+    min-width: 25%;
+    background: #30282a;
+    text-align: center;
+    -ms-flex-preferred-size: 40px;
+        flex-basis: 40px;
+    padding: 4% 1%;
+    margin: 0 .5%;
+    font-size: 32px; }
+    /* line 266, main.scss */
+    .social__links .social__links--item p {
+      margin-top: 2%;
+      font-size: 16px;
+      letter-spacing: -1px;
+      font-weight: 900; }
 
 /*# sourceMappingURL=main.css.map */
